@@ -21,6 +21,20 @@ def take_a_number(array_line, person_line)
   puts "Welcome, #{person_line}. You are number #{array_line.length} in line."
 end
 
-def now_serving
-  
+def now_serving(line_number)
+  if line_number.empty?
+    puts "There is nobody waiting to be served!"
+    
+  else
+    puts "Currently now_serving #{line_number}"
+  end
+end
+
+def now_serving(line)
+  if line.length == 0 # could say: "if deli.empty?"
+    puts"There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{line[0]}." # could say: "Currently serving #{line.first}."
+    line.shift # this works in the IDE but no on repl.it
+  end
 end
