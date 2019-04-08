@@ -29,4 +29,3 @@ def now_serving(line_number)
     puts "Currently serving #{line_number[0]}."
   end
 end
-
