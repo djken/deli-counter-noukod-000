@@ -1,5 +1,5 @@
 # Write your code here.
-katz_del = ["Logan", "Avi", "Spencer"]
+katz_deli = ["Logan", "Avi", "Spencer"]
 
 def line(array)
   if array.length >= 1
