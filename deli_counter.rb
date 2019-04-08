@@ -3,13 +3,14 @@ katz_del = []
 
 def line(array)
   if array.length >= 1
-    nuarray = []
-    counter = 1 
+    new_arr = []
+    
+    line_count = 1 
     array.each do |name|
-      nuarray.push("#{counter}. #{name}")
-      counter += 1 
+      new_arr.push("#{line_count}. #{name}")
+      line_count += 1 
     end 
-    puts "The line is currently: #{nuarray.join(" ")}"
+    puts "The line is currently: #{new_arr.join(" ")}"
   else
     puts "The line is currently empty."
   end
