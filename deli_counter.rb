@@ -31,5 +31,3 @@ def now_serving(line_number)
   end
 end
 
-now_serving(katz_deli)
-puts katz_deli
