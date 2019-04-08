@@ -1,5 +1,5 @@
 # Write your code here.
-katz_del = []
+katz_del = ["Logan", "Avi", "Spencer"]
 
 def line(array)
   if array.length >= 1
@@ -29,4 +29,6 @@ def now_serving(line_number)
     puts "Currently serving #{line_number[0]}."
   end
 end
+
+now_serving(katz_del)
 
