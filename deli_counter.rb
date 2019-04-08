@@ -18,7 +18,7 @@ end
 
 def take_a_number(array_line, person_line)
   array_line << person_line
-  puts "Welcome #{person_line}. You are number #{array_line.length} in line."
+  puts "Welcome, #{person_line}. You are number #{array_line.length} in line."
 end
 
 # def take_a_number(line, new_person)
