@@ -31,4 +31,4 @@ def now_serving(line_number)
 end
 
 now_serving(katz_del)
-puts katz_del
+puts katz_deli
