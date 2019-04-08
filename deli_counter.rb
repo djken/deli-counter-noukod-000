@@ -22,7 +22,7 @@ def take_a_number(array_line, person_line)
 end
 
 def now_serving(line_number)
-  if line_number.empty?
+  if line_number == 0
     puts "There is nobody waiting to be served!"
     
   else
