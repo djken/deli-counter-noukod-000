@@ -1,4 +1,5 @@
 # Write your code here.
+katz_del = []
 def line 
   
 end
