@@ -1,7 +1,7 @@
 # Write your code here.
 katz_del = []
 
-def line 
+def line(array)
   
 end
 
